@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <Link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="volume">
+      <h1>Rock Paper Scissors</h1>
+      <p class="onoff" onclick="toggleAudio()">Music-off</p>
+    </div>
+    <div class="images">
+          <div id="rock" class="choice">
+            <img src="rock.png" alt="rock">
+          </div>
+          <div id="paper" class="choice">
+            <img src="paper.png" alt="paper">
+          </div>
+          <div id="scissors" class="choice">
+            <img src="scissors.png" alt="scissors">
+          </div>
+    </div>
+    <div class="scoreboard">
+        <div class="player">
+            <p class="playerscore">0</p>
+            <p>You</p>
+        </div>
+        <div class="computer">
+            <p class="computerscore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="message">
+        <p class="info">Play Your Move</p>
+    </div>
+
+<audio src="mixkit-retro-game-notification-212_MlXvcNp2.wav" class="winbgm"></audio>
+<audio src="mixkit-losing-bleeps-2026_8AuMXa8S.wav" class="losebgm"></audio>
+<audio src="Sakura-Girl-Daisy-chosic.com_.mp3" controls autoplay loop class="bgm"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
